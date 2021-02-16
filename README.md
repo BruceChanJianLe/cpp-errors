@@ -3,7 +3,7 @@
 This repository keeps track of some common errors occurred in CPP during compilation.
 
 ## Content
-- 
+- [Multiple definition/first defined here](#multiple-definition-first-defined-here-errors)
 
 ## “Multiple definition”, “first defined here” Errors
 

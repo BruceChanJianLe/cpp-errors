@@ -17,3 +17,8 @@ Multiple definition or first defined here errors occurs for several reasons.
 ## "Symbol lookup error" template
 
 The symbol lookup error can be caused by many issue, here we are going to discuss the cause by template function. If you do not know already, if you want to use a template function you will need to define the template function inside of a header file `hpp` instead of a source file `cpp`.
+
+Example error:
+```bash
+libanyLibrary.so: undefined symbol: _ZN5utils12param_loader22getGlobalROSParamValueINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKcEEbRKN3ros10NodeHandleES7_RT_T0_
+```

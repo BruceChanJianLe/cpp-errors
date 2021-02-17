@@ -22,3 +22,6 @@ Example error:
 ```bash
 libanyLibrary.so: undefined symbol: _ZN5utils12param_loader22getGlobalROSParamValueINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKcEEbRKN3ros10NodeHandleES7_RT_T0_
 ```
+[link_Ubuntu_forum](https://ubuntuforums.org/showthread.php?t=896130)  
+[link_gazebo](https://answers.gazebosim.org//question/21417/undefined-symbol-with-plugin/)  
+[link_isocpp](https://isocpp.org/wiki/faq/templates#separate-template-class-defn-from-decl)

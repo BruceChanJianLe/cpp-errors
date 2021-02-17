@@ -13,3 +13,7 @@ Multiple definition or first defined here errors occurs for several reasons.
 - Declaration of function in header file but no definition found in source file for functions.
 
 [link_stackoverflow](https://stackoverflow.com/questions/30821356/multiple-definition-first-defined-here-errors)
+
+## "Symbol lookup error" template
+
+The symbol lookup error can be caused by many issue, here we are going to discuss the cause by template function. If you do not know already, if you want to use a template function you will need to define the template function inside of a header file `hpp` instead of a source file `cpp`.

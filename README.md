@@ -5,6 +5,7 @@ This repository keeps track of some common errors occurred in CPP during compila
 ## Content
 - [Multiple definition/first defined here](#multiple-definition-first-defined-here-errors)
 - [Symbol Lookup Error](#symbol-lookup-error-template)
+- [will be initialized after -Wreorder](#will-be-initialized-after-Wreorder)
 
 ## “Multiple definition”, “first defined here” Errors
 
@@ -26,3 +27,9 @@ libanyLibrary.so: undefined symbol: _ZN5utils12param_loader22getGlobalROSParamVa
 [link_Ubuntu_forum](https://ubuntuforums.org/showthread.php?t=896130)  
 [link_gazebo](https://answers.gazebosim.org//question/21417/undefined-symbol-with-plugin/)  
 [link_isocpp](https://isocpp.org/wiki/faq/templates#separate-template-class-defn-from-decl)
+
+## will be initialized after [-Wreorder]
+
+This happens when the variable you define is initialize before it is declare sequence.
+
+- [link](http://www.cplusplus.com/forum/general/209818/)

@@ -5,7 +5,7 @@ This repository keeps track of some common errors occurred in CPP during compila
 ## Content
 - [Multiple definition/first defined here](#multiple-definition-first-defined-here-errors)
 - [Symbol Lookup Error](#symbol-lookup-error-template)
-- [will be initialized after -Wreorder](#will-be-initialized-after-Wreorder)
+- [will be initialized after -Wreorder](#will-be-initialized-after--Wreorder)
 
 ## “Multiple definition”, “first defined here” Errors
 
